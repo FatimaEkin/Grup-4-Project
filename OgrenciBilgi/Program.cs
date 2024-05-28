@@ -22,11 +22,11 @@ namespace StudentListApp
                 switch (option)
                 {
                     case "1":
-                        Console.WriteLine("Enter student name: ");
+                        Console.WriteLine("Öğrenci Adı : ");
                         string name = Console.ReadLine();
-                        Console.WriteLine("Enter student surname: ");
+                        Console.WriteLine("Öğrenci Soyadı: ");
                         string surname = Console.ReadLine();
-                        Console.WriteLine("Enter student number: ");
+                        Console.WriteLine("Öğrenci Numarası: ");
                         int studentNumber = Convert.ToInt32(Console.ReadLine());
 
                         Student newStudent = new Student
